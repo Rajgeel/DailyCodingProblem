@@ -27,15 +27,6 @@ class FirstMissingPositiveInteger {
 			j++;
 		}
 
-		// for(int i=j; i<size; i++) {
-
-		// 	if(arr[i] > 0) {
-		// 		if(arr[i] != arr[i] + 1) {
-		// 			return arr[i] + 1;
-		// 		}
-		// 	}
-		// }
-
 		int i = 1;
 		while(j < size) {
 
