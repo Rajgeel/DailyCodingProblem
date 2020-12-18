@@ -1,6 +1,3 @@
-import java.util.Queue;
-import java.util.LinkedList;
-
 class BinaryTreeSerializeDeserializeImpl {
 
 	Node root;
