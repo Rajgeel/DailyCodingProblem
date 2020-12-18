@@ -92,9 +92,9 @@ class BinaryTreeSerializeDeserializeImpl {
 
 	public static void main(String... s) {
 
-		BinaryTreeSerializeDeserializeImpl obj = new BinaryTreeSerializeDeserializeImpl();
+	BinaryTreeSerializeDeserializeImpl obj = new BinaryTreeSerializeDeserializeImpl();
 
-		obj.root = new Node(1);
+	obj.root = new Node(1);
         obj.root.left = new Node(2);
         obj.root.left.left = new Node(3);
         obj.root.right = new Node(4);
