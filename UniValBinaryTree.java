@@ -58,16 +58,16 @@ class UniValBinaryTree {
 		UniValBinaryTree obj = new UniValBinaryTree();
 
 		obj.root = new Node(0); 
-        obj.root.left = new Node(1); 
-        obj.root.right = new Node(0); 
-        obj.root.right.left = new Node(1); 
-        obj.root.right.right = new Node(0); 
-        obj.root.right.left.left = new Node(1);
-        obj.root.right.left.right= new Node(1);
+		obj.root.left = new Node(1); 
+		obj.root.right = new Node(0); 
+		obj.root.right.left = new Node(1); 
+		obj.root.right.right = new Node(0); 
+		obj.root.right.left.left = new Node(1);
+		obj.root.right.left.right= new Node(1);
 
-        obj.recur(obj.root);
- 
-        System.out.print(obj.count);    
+		obj.recur(obj.root);
+
+		System.out.print(obj.count);    
 
 	}
 }
