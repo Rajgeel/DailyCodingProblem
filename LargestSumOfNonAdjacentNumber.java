@@ -19,9 +19,9 @@ class LargestSumOfNonAdjacentNumber {
 
 		for(int i=1; i<n; i++) {
 
-			newEnclude = Math.max(include, exclude);
+			newExclude = Math.max(include, exclude);
 			include = exclude + arr[i];
-			exclude = newEnclude;
+			exclude = newExclude;
 		}
 
 		return Math.max(include, exclude);
